@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 setup(
     name = 'pyarrange',
-    version = '1.0.0',
+    version = '2.0.0',
     author = 'Bates',
     author_email = 'Bates@mailer.com.br',
     packages = ['pyarrange'],
@@ -11,8 +11,5 @@ setup(
     url = 'https://github.com/batestin1/',
     project_urls = {'Download' : 'https://github.com/batestin1/', 'Codigo fonte' : 'https://github.com/batestin1/'},
     keywords = 'a way to make your life easier',
-    classifiers = [],
-    install_requires=[
-            'shutil'
-        ]
+    classifiers = []
 )
