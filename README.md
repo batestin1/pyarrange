@@ -17,7 +17,7 @@ If there is a directory that contains files like <i> "image.jpg', "video.mp4", "
 <p> <b> In your terminal type </b> </p>
 
 ```
-pip install pyarrange
+pip install pyarrange==3.0.0
 
 ```
 
