@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 setup(
     name = 'pyarrange',
-    version = '2.0.0',
+    version = '3.0.0',
     author = 'Bates',
     author_email = 'Bates@mailer.com.br',
     packages = ['pyarrange'],

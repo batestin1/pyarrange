@@ -27,7 +27,8 @@ pip install pyarrange
 
 from pyarrange import *
 
-pyarrange()
+
+arrange()
 #So when in the terminal it asks for the path: enter the directory full path
 
 ```

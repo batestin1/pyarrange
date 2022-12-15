@@ -11,10 +11,8 @@ import os
 import shutil
 import sys
 
-def arrange(path=input("path: ").replace('\\','/')):
-    #C:\Users\Bates\Pictures
-    #path = input("").replace('\\','/')
-    #path = "C:/Users/Bates/Pictures"
+def arrange():
+    path=input("path: ").replace('\\','/')
     for files in glob.glob(f"{path}/*"):
         files_replace = files.replace('\\','/')
         extension = os.path.splitext(files_replace)[1]
