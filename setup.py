@@ -2,7 +2,7 @@ from setuptools import setup
 from setuptools import find_packages
 setup(
     name = 'pyarrange',
-    version = '5.0.0',
+    version = '1.0.0',
     author = 'Bates',
     author_email = 'Bates@mailer.com.br',
     packages = ['pyarrange'],
@@ -13,8 +13,6 @@ setup(
     keywords = 'a way to make your life easier',
     classifiers = [],
     install_requires=[
-            'glob',
             'shutil'
-            
         ]
 )
